@@ -1,0 +1,74 @@
+header {
+    background: white;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+header h1 {
+    padding-right: 170px;
+    margin-top: 5px;
+    margin-bottom: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px
+}
+
+body {
+    background: lightgrey;
+    margin: 0;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    margin-left: 5px;
+}
+
+.post {
+    background: white;
+    margin-top: 7%;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+.post img {
+    width: 100%;
+    object-fit:cover;
+    margin-top: 10px;
+}
+
+.post h2 {
+    padding-left: 10px;
+    margin-bottom: -5%;
+    margin-top: 5;
+}
+
+span {
+    float: right;
+    margin-top: 25px;
+    margin-right: -40px;
+    position:relative;
+    width: 20%;
+    font-size: 18px;
+    color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-left: 5%;
+    padding-bottom: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.foto :first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+.foto :last-child {
+    display: inline-block;
+    width:15%;
+}
